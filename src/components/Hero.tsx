@@ -1,6 +1,6 @@
 import { Github as GitHub, Linkedin, Mail, Download } from 'lucide-react';
 import { Link } from 'react-scroll';
-
+import GuruImg from "../../public/image3.png";
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center pt-16">
@@ -69,7 +69,7 @@ const Hero = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-teal-500 rounded-lg transform translate-x-3 translate-y-3"></div>
               <img
-                src="public/image3.png?auto=compress&cs=tinysrgb&w=600"
+                src={GuruImg+ "?auto=compress&cs=tinysrgb&w=600"}
                 alt="Guru Mukesh"
                 className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-lg relative z-10"
               />
